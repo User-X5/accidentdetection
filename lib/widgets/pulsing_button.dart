@@ -83,7 +83,7 @@ class _PulsingActiveButtonState extends State<PulsingActiveButton>
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   // Radio wave icon
-                  Icon(
+                  const Icon(
                     Icons.sensors,
                     color: Colors.white,
                     size: 36,

@@ -22,7 +22,6 @@ class AppTheme {
           primary: primaryBlue,
           secondary: accentBlue,
           surface: surfaceWhite,
-          background: backgroundGrey,
         ),
         textTheme: GoogleFonts.dmSansTextTheme().copyWith(
           displayLarge: GoogleFonts.dmSans(

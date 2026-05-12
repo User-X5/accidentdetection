@@ -10,11 +10,11 @@ class EventTile extends StatelessWidget {
   Widget _buildIcon() {
     switch (event.type) {
       case EventType.impact:
-        return Stack(
+        return const Stack(
           alignment: Alignment.bottomCenter,
           children: [
             Icon(Icons.wifi, color: AppTheme.textPrimary, size: 22),
-            const Positioned(
+            Positioned(
               bottom: 0,
               child: Icon(Icons.location_on_outlined,
                   color: AppTheme.accentBlue, size: 14),
