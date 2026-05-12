@@ -77,7 +77,7 @@ class HistoryScreen extends StatelessWidget {
             ...sampleEvents.map((e) => EventTile(event: e)),
 
             const SizedBox(height: 24),
-            Center(
+            const Center(
               child: Text(
                 'END OF RECENT ACTIVITY',
                 style: TextStyle(
